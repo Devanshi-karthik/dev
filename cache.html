@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- Google Tag Manager -->
+  <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NCHHBS6');</script> -->
+  <!-- End Google Tag Manager -->
+
+  <link href="css/index.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Begin Microsoft Consent Management -->
+  <!-- Copyright (c) Microsoft Corporation. All rights reserved -->
+  <!-- Replace <Host-URL> with desired path -->
+  <script>!function(c,o,a,n){var s=3<arguments.length&&void 0!==n?n:".",r=!1,i=[],f=(window.MSFTPrivacy = window.MSFTPrivacy || {}, window.MSFTPrivacy.trackerConsent={onLoad:function(n){return r?n():i.push(n)}},0),g=c.getElementsByTagName(o)[0].parentNode;(function n(t){var e=c.createElement(o);e.src="".concat(s).concat(/[\/]$/.test(s)?"":"/","msft-privacy/").concat(t),g.insertBefore(e,g.firstChild),e.onload=function(){++f<a.length?n(a[f]):(i.forEach(function(n){return n()}),r=!0)}})(a[0])}(document,"script",["packages/507bf267-2d3c-40a9-a82a-e7378c101c5d/latest/core-config.js","packages/507bf267-2d3c-40a9-a82a-e7378c101c5d/js/consent.min.js"],"https://prbaheticdn.azureedge.net/testpran")</script>
+  <script>MSFTPrivacy.trackerConsent.onLoad(function(){return MSFTPrivacy.trackerConsent.init({"assetsPath":"https://prbaheticdn.azureedge.net/testpran"})})</script>
+  <!-- End Microsoft Consent Management -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style>
+    .p-wrapper-home {
+      max-width: 1950px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .js-user-slider {
+      transition: width 0.2s, height 0.2s;
+    }
+
+    .js-user-slider span {
+      display: none;
+      opacity: 0;
+    }
+
+    .js-user-slider span:first-of-type {
+      display: block;
+      opacity: 1;
+    }
+
+    .js-user-slide-init {
+      transform: translate3d(0, -100%, 0);
+    }
+
+    .js-user-slider.js-loaded span {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: auto;
+      right: auto;
+    }
+
+    .js-user-slide-in {
+      animation: slideIn 1s forwards;
+    }
+
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translate3d(0, -150%, 0);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translate3d(0, -100%, 0);
+      }
+    }
+
+    .js-user-slide-out {
+      animation: slideOut 1s forwards;
+    }
+
+    @keyframes slideOut {
+      0% {
+        opacity: 1;
+        transform: translate3d(0, -100%, 0);
+      }
+
+      30% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+        transform: translate3d(0, -50%, 0);
+      }
+    }
+
+    .js-use-case p {
+      display: none;
+    }
+
+    .js-use-case.js-use-case--is-active p {
+      display: block;
+    }
+
+    .js-use-case.js-use-case--is-active h3 {
+      border-top-color: var(--black-500) !important;
+    }
+
+    .js-use-case.js-use-case--is-active svg {
+      color: var(--blue-500) !important;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=5db70161c3e6">
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=14b1aeb20087">
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/Product/product.css?v=5d2cb7680e21">
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=b1915d2e6090">
+
+  <noscript id="noscript-css">
+    <style>
+      body,
+      .top-bar {
+        margin-top: 1.9em
+      }
+    </style>
+  </noscript>
+  <style>
+    .s-modal,
+    .s-modal .s-modal--dialog {
+      visibility: visible !important;
+      z-index: 9000 !important;
+      opacity: 1 !important;
+      transform: translate3d(0, 0, 0) scale3d(1, 1, 1) !important;
+      transition: opacity 100ms cubic-bezier(.165, .84, .44, 1) 10ms, z-index 0s 0s, visibility 0s 0s, transform 100ms cubic-bezier(.165, .84, .44, 1) 10ms, transform 100ms cubic-bezier(.165, .84, .44, 1) 10ms !important;
+    }
+  </style>
+  <title>Demo Website</title>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCHHBS6" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Demo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pages/about.html">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="cart.html">Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mobiles.html">Mobiles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="computers.html">Computers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tablets.html">Tablets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="toysandGames.html">Toys and Games</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main" class="container">
+
+    <div class="starter-template">
+      <h1>Home Page</h1>
+    </div>
+
+  </main>
+  <div class="container bd-card tab-content">
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#internal-links">Internal Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#external-links">External Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#cookie-links">Cookie links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#error-links">Error links</a>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-content">
+        <div class="card-body tab-pane active" id="internal-links">
+          <h5 class="card-title">Internal Links Stats</h5>
+          <p class="card-text">This Page has <span class="count"></span> internal valid links.</p>
+          <ul class="list-group list-group-flush links"></ul>
+        </div>
+
+        <div class="card-body tab-pane fade" id="external-links">
+          <h5 class="card-title">External Links Stats</h5>
+          <p class="card-text">This Page has <span class="count"></span> external links.</p>
+          <ul class="list-group list-group-flush links"></ul>
+        </div>
+
+        <div class="card-body tab-pane fade" id="cookie-links">
+          <h5 class="card-title">Cookie Links Stats</h5>
+          <p class="card-text">This Page has <span class="count"></span> cookie setting links.</p>
+          <ul class="list-group list-group-flush links"></ul>
+        </div>
+
+        <div class="card-body tab-pane fade" id="error-links">
+          <h5 class="card-title">Error Links Stats</h5>
+          <p class="card-text">This Page has <span class="count"></span> error or external redirection links.</p>
+          <ul class="list-group list-group-flush links"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/links.js"></script>
+</body>
+
+</html>
