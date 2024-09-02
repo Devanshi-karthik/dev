@@ -1,0 +1,6 @@
+<!-- Begin Microsoft Consent Management -->
+<!-- Copyright (c) Microsoft Corporation. All rights reserved -->
+<!-- Replace <Host-URL> with desired path -->
+<script>!function(c,e,a,n){var r=3<arguments.length&&void 0!==n?n:".",i=!1,s=[],f=(window.MSFTPrivacy=window.MSFTPrivacy||{},window.MSFTPrivacy.trackerConsent={onLoad:function(n){return i?n():s.push(n)}},0),u=c.getElementsByTagName(e)[0].parentNode;(function n(t){var o=c.createElement(e);o.src="".concat(r).concat(/[\\\/]$/.test(r)?"":"/","msft-privacy/").concat("string"==typeof myVar?t:t()),u.insertBefore(o,u.firstChild),o.onload=function(){++f<a.length?n(a[f]):(s.forEach(function(n){return n()}),i=!0)}})(a[0])}(document,"script",[function(){return"packages/f34d690e-1656-4fd3-8b3d-33a98db08d4d/latest/core-config.js?v=".concat(Math.floor(Date.now()/6e4))},function(){return"packages/f34d690e-1656-4fd3-8b3d-33a98db08d4d/js/".concat(window.__MSFT_SDK.trackerConsent.config.consentSDKVersion,"/consent.min.js")}],"<Host-URL>")</script>
+<script>MSFTPrivacy.trackerConsent.onLoad(function(){return MSFTPrivacy.trackerConsent.init()})</script>
+<!-- End Microsoft Consent Management -->
